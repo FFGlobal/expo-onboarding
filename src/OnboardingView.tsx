@@ -315,7 +315,9 @@ export default function OnboardingView({
                 contentContainerStyle={{
                     flexDirection: 'column',
                     gap: 64,
+					paddingBottom: 200,
                 }}
+				showsHorizontalScrollIndicator={false}
             >
                 <Animated.View
                     style={[
