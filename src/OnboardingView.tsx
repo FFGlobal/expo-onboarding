@@ -318,6 +318,7 @@ export default function OnboardingView({
 					paddingBottom: 200,
                 }}
 				showsHorizontalScrollIndicator={false}
+				showsVerticalScrollIndicator={false}
             >
                 <Animated.View
                     style={[
